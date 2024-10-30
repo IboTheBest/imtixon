@@ -1,0 +1,29 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/pt-sans-v17-latin-regular.woff2') format('woff2'); 
+}
+/* exo-2-600 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/Exo2-SemiBold.woff2') format('woff2'); 
+  }
+@font-face {
+    font-display: swap;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/pt-sans-v17-latin-700.woff2') format('woff2');
+}
+
+.containers{
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+

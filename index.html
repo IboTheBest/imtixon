@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Imtixon</title>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .border{
+                border-bottom: 3px solid #FFCE50;
+                border-top: none;
+                border-left: none;
+                border-right:none ;
+            }
+            .border-right{
+                border-right: 1px solid #D7D7DD;
+                border-top: none;
+                border-bottom: none;
+                border-left:none ;
+            }
+            .shadow{
+                box-shadow: 0px 4px 20px 0px #00000026;
+            }
+            .shadow-none{
+                box-shadow: none;
+            }
+            .pt-serif{
+                font-family: "PT Sans",sans-serif;
+            }
+            .exo{
+                font-family: 'Exo 2', sans-serif;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main> 
+        <section class="lg:pt-[109px] md:pb-[67px] sm:pt-[75px] sm:pb-[34px] md:pt-[117px] md:pb-[97px]">
+            <div class="containers">
+                <div class="flex lg:flex-row lg:justify-between md:flex-col sm:flex-col md:justify-between md:gap-[73px] md:items-center mb-[67px] sm:mb-[56px] " >
+                    <div class="lg:min-w-[530px] md:min-w-[690px] lg:text-start md:text-center">
+                        <h2 class="exo font-semibold mb-10 text-[#363738] text-[53px] leading-[65px]">Поставщик Дальнего Востока</h2>
+                        <p class="text-4 pt-serif leading-6 text-[#6B6B6C] mb-10">Наши клиенты получают полный спектр услуг по работе с Китаем.  Начиная с подбора производителя заканчивая доставкой товара до двери.  Настолько прозрачных сделок с Китаем вы еще не осуществляли. </p>
+                            <a class="border pb-[10px] pt-serif text-[#363738] exo font-bold text-4 leading-6 " href="#">Узнать больше</a>
+                        </div>  
+                        <img class="hidden xl:w-[635px] xl:h-[505px] xl:block lg:block lg:w-[600px] lg:h-[470px]" src="./images/hero-img-min.png" alt="Hero truck">
+                        <img class="md:block lg:hidden sm:hidden" src="./images/hero-tablet-min.png" alt="tablet" width="690" height="314">
+                        <img class="hidden  md:hidden sm:block" src="./images/hero-phone-min.png" alt="phone hero" width="345" height="253">
+                    </div>
+                    <ul class=" grid lg:shadow lg:grid-cols-3 md:grid-cols-1 py-10 box rounded-[20px] md:gap-[15px]">
+                        <li class="flex md:pt-8 md:pb-8 md:rounded-[20px] lg:rounded-none lg:pl-20 md:pl-5 flex-col items-start md:shadow lg:shadow-none border-right" >
+                            <div class="lg:w-[228px] md:w-[100%] flex md:items-center md:gap-8 lg:flex-col "> 
+                                <div class="w-[92px] lg:mb-6 h-[92px] rounded-full bg-[#E9E9EC] flex items-center justify-center">
+                                    <img src="./images/hero-icon1.svg" alt="hero icon" width="50" height="50">
+                                </div>
+                                <div>
+                                    <h3 class="exo text-[#363738] mb-4 exo text-[20px] leading-[27px] font-semibold">Поиск производителей по товару</h3>
+                                    <p class="text-[#6B6B6C] pt-serif font-normal text-4 leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="flex md:pt-8 md:pb-8 md:rounded-[20px] lg:rounded-none lg:pl-20 md:pl-5 flex-col items-start md:shadow lg:shadow-none border-right" >
+                            <div class="lg:w-[228px] md:w-[100%] md:flex md:items-center md:gap-8 lg:flex-col "> 
+                                <div class="w-[92px] lg:mb-6 h-[92px] rounded-full bg-[#E9E9EC] flex items-center justify-center">
+                                    <img src="./images/hero-icon2.svg" alt="hero icon" width="50" height="50">
+                                </div>
+                                <div>
+                                    <h3 class="exo text-[#363738] mb-4 text-[20px] leading-[27px] font-semibold">Поиск конкретного производителя</h3>
+                                    <p class="text-[#6B6B6C] font-normal pt-serif text-4 leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="flex md:pt-8 md:pb-8 md:rounded-[20px] lg:rounded-none lg:pl-20 md:pl-5 flex-col items-start md:shadow lg:shadow-none" >
+                            <div class="lg:w-[228px] md:w-[100%] md:flex md:items-center md:gap-8 lg:flex-col "> 
+                                <div class="w-[92px] lg:mb-6 h-[92px] rounded-full bg-[#E9E9EC] flex items-center justify-center">
+                                    <img src="./images/hero-icon3.svg" alt="hero icon" width="50" height="50">
+                                </div>
+                                <div>
+                                    <h3 class="exo text-[#363738] mb-4 text-[20px] leading-[27px] font-semibold">Доставка образцов товаров</h3>
+                                    <p class="text-[#6B6B6C] pt-serif  font-normal text-4 leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul> 
+                </div>
+            </section>
+        </main>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            clifford: '#da373d',
+                        }
+                    }
+                }
+            }
+        </script>
+    </body>
+    </html>
